@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cba66cbafbb9a7e4a9891faf5858ebc7, type: 3}
+  m_Name: GreenSwatch
+  m_EditorClassIdentifier: 
+  main: {r: 0, g: 0.83137256, b: 0.5803922, a: 1}
+  high: {r: 0.60784316, g: 0.87058824, b: 0.7921569, a: 1}
+  darker: {r: 0, g: 0.5803922, b: 0.40784314, a: 1}
+  darkest: {r: 0, g: 0.32941177, b: 0.23137255, a: 1}

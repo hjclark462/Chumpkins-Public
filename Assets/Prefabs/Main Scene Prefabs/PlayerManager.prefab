@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2544068552976493286
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2544068552976493285}
+  - component: {fileID: 2544068552976493284}
+  - component: {fileID: 2544068552976493287}
+  m_Layer: 0
+  m_Name: PlayerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2544068552976493285
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2544068552976493286}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2544068552976493284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2544068552976493286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2388b20f842c1324ba9cf4f6c80e1846, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_camera: {fileID: 0}
+  playerInputManager: {fileID: 0}
+  dummyTargets:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  headpieces:
+  - {fileID: 919132149155446097, guid: d35d231e329ddc445b537fc06b5e4177, type: 3}
+  - {fileID: 919132149155446097, guid: e5c0fe3240fb3cb4784fd6ff833f7971, type: 3}
+  - {fileID: 919132149155446097, guid: c4eb484d5ee4edb46b7f83bc1345fc6e, type: 3}
+  - {fileID: 919132149155446097, guid: bc9f00d2962c52247beabd92d3f1c734, type: 3}
+  - {fileID: 919132149155446097, guid: ac366629b6bef214eaac6aa8e1935928, type: 3}
+  - {fileID: 919132149155446097, guid: 4b19740c90b5eaf40b08c8261138359d, type: 3}
+  bodyMaterials:
+  - {fileID: 2100000, guid: 36727269588b20d47b6fbd5abaebb916, type: 2}
+  - {fileID: 2100000, guid: 93c3092f06b77834da159ec51f400a0e, type: 2}
+  - {fileID: 2100000, guid: 838cc1a6b1d9888479891476ed0f96a4, type: 2}
+  - {fileID: 2100000, guid: f5f6aa593a294bc4bbeabd1d82ae8b6c, type: 2}
+  colours:
+  - {fileID: 11400000, guid: ec08d6d0e1cace44a98404c2994ce002, type: 2}
+  - {fileID: 11400000, guid: e3771dbe55be0124d962e18b5e7fb893, type: 2}
+  - {fileID: 11400000, guid: 823f6d2931c8f174cbfa2e9ed1d8c12a, type: 2}
+  - {fileID: 11400000, guid: e1e3909b8aef9344bbf65fc3493f254f, type: 2}
+  deathOrder: []
+  winPodium:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  profilePoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  headUIMaterials:
+  - {fileID: 2100000, guid: 4c7b3f84f599d6e43a3f65b0e4629226, type: 2}
+  - {fileID: 2100000, guid: b92525d7a884e6d41b5d89c1f751dcd7, type: 2}
+  - {fileID: 2100000, guid: c1874c27e84d4374caa9be0e8571422e, type: 2}
+  - {fileID: 2100000, guid: b023632823e85a349bbf9787d7bfc0ff, type: 2}
+  - {fileID: 2100000, guid: 75cb4785ed659b04dab59ce25ff319d4, type: 2}
+  - {fileID: 2100000, guid: 1e29ff6697c2c1e499f4a095af1e26fa, type: 2}
+  - {fileID: 2100000, guid: de7123bf5c0960c419f2adaba18daef4, type: 2}
+  - {fileID: 2100000, guid: 941b7ab6e7b7b75498a94722f4092b0f, type: 2}
+  UIMaterials:
+  - {fileID: 2100000, guid: 3a17ecddbf72b4a4b992a5b2548b5199, type: 2}
+  - {fileID: 2100000, guid: da97a7e718aef3346b661375686cc955, type: 2}
+  - {fileID: 2100000, guid: 343c3be6acff2d8409a2e6ce47d00c6a, type: 2}
+  - {fileID: 2100000, guid: c1efbdfe518bbbb4a9ce47999454b9db, type: 2}
+  - {fileID: 2100000, guid: bb06190f61876af41bb0c89b2c326dfb, type: 2}
+  - {fileID: 2100000, guid: 646c1a79fe8b15a4a994770b4766e1ed, type: 2}
+  - {fileID: 2100000, guid: 38a17f93417519e4b9ef6862eda6150c, type: 2}
+  - {fileID: 2100000, guid: c1ac668c48990a445abbc19ad460fd01, type: 2}
+  joinBGS:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  leaderBoards:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  fonts:
+  - {fileID: 11400000, guid: c2c76b7bb6a2fea4e91ba4aa068d992f, type: 2}
+  - {fileID: 11400000, guid: 3c09a8b217637a34cbb009802062db1b, type: 2}
+  - {fileID: 11400000, guid: 5f6605dd3b277444a9430eabb7419db1, type: 2}
+  - {fileID: 11400000, guid: 28a22a465c5fef248b4ef37d301ca41d, type: 2}
+  decalMaterials:
+  - {fileID: 2100000, guid: 75b60897810817b4abb08b8b4061a41f, type: 2}
+  - {fileID: 2100000, guid: d0575c575831a14489164b472b4c0ba5, type: 2}
+  - {fileID: 2100000, guid: cb1cd9fefece24a47b619748237bdf08, type: 2}
+  - {fileID: 2100000, guid: 45308ae7cc4537142b805b62ffa44509, type: 2}
+--- !u!114 &2544068552976493287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2544068552976493286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 621567455fd1c4ceb811cc8a00b6a1a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_NotificationBehavior: 3
+  m_MaxPlayerCount: 4
+  m_AllowJoining: 1
+  m_JoinBehavior: 1
+  m_PlayerJoinedEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: PlayerManager, Assembly-CSharp
+        m_MethodName: HandlePlayerJoin
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.InputSystem.PlayerInput,
+            Unity.InputSystem
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_PlayerLeftEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_JoinAction:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Join
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 619e039f-7d52-4b7c-9603-88c198974d74
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: a3a888e9-34f6-40d6-85cb-473369e6f200
+        m_Path: <Gamepad>/buttonNorth
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Join
+        m_Flags: 0
+      - m_Name: 
+        m_Id: 36c879a5-b86a-4a61-a6a0-a233d6b5c229
+        m_Path: <Keyboard>/w
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Join
+        m_Flags: 0
+    m_Reference: {fileID: 0}
+  m_PlayerPrefab: {fileID: 6898912168303378784, guid: 85ee49f9860cbb843b7fed247145253f, type: 3}
+  m_SplitScreen: 0
+  m_MaintainAspectRatioInSplitScreen: 0
+  m_FixedNumberOfSplitScreens: -1
+  m_SplitScreenRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1

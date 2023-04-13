@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cba66cbafbb9a7e4a9891faf5858ebc7, type: 3}
+  m_Name: BlueSwatch
+  m_EditorClassIdentifier: 
+  main: {r: 0.2784314, g: 0.7411765, b: 1, a: 1}
+  high: {r: 0.69803923, g: 0.8901961, b: 1, a: 1}
+  darker: {r: 0.21176471, g: 0.5529412, b: 0.7490196, a: 1}
+  darkest: {r: 0.14117648, g: 0.36862746, b: 0.5019608, a: 1}
